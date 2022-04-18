@@ -5,7 +5,7 @@ const cors = require('cors')
 const app = express()
 const port = 8000
 const corsOption = {
-    origin: 'http://localhost:3000',
+    origin: 'https://yellow-page-test.herokuapp.com/',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
